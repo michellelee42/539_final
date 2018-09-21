@@ -1,16 +1,46 @@
-li{
-	text-decoration: none;
-    display:inline;
-    color: black;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Lucida Sans Unicode;
+    font-size: 14px;
+}
+li a:hover:not(.active) {
+    background-color: orange;
+}
+.active {
+    background-color: orange;
+}
+h1 {
+    font-family: Lucida Sans Unicode;
+}
+h3 {
+    font-family: Lucida Sans Unicode;
 }
 p {
-    font-size: 16px;
+    font-family: Lucida Sans Unicode;
+    font-size: 14.5px;
 }
 i {
-    color: red;
+    color: white;
 }
-
+.picture1 {
+    width: 600px;
+    height: auto;
+}
 .picture {
     width: 400px;
-    height: auto;
+    height: 260px;
 }
