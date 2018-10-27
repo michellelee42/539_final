@@ -2,50 +2,77 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>Mirocle</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-	 crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=KoHo">
+    <title>Mirocle Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body class="index">
-	<header>
-		<nav>
-			<h1>Michigan Rock Climbing (MIROCLE)</h1>
-			<ul class="nav_container">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="types.html">Types of Climbing</a></li>
-				<li><a href="memories.html">Memories</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
-	</header>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">MIROCLE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="types.html">Types of Climbing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="memories.html">Memories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-	<img src="images/image2.jpg" class="bg" alt="Group Picture: T-shirt" />
+    <img src="images/image2.png" class="homepic" alt="Group Picture With T-shirt" />
 
-	<p>Hi there - welcome! We’re just a group of people who enjoy climbing.
-		<p>The Michigan Rock Climbing (Mirocle) club was first made in January, 2015 by a few Korean graduate students from
-			the University of Michigan.
-			<br>Since then, it’s gradually expanded into a larger crew that now consists of a variety of people including
-			undergrads, graduate students, and
-			alumni who work in the area.</p>
 
-		<p>Currently, we climb together as a group at a local indoor gym called Planet Rock at the following days/times:
-			<br>-Tuesday 7pm-10pm
-			<br>-Thursday 7pm-10pm
-			<br>-Saturday 3pm-6pm</p>
+    <section class="container">
+        <div class="row">
+            <div class="mt-5 col-12 col-md-6 box1" style=background-color:beige>
+                Hey there - welcome!
+            </div>
+            <div class="mt-5 col-12 col-md-6 box2" style=background-color:rgb(191,252,231)>
+                We're just a group of people who enjoy climbing. The Michigan Rock Climbing club (Mirocle) was first
+                made
+                in January, 2015 by a few Korean graduate students from the University of Michigan. Since then, it has
+                quickly expanded to become a group that includes not only graduate students, but also undergrads,
+                alums,
+                and basically anyone who's interested in climbing with us!
+            </div>
+            <div class="mt-5 col-12 col-md-6 box3" style=background-color:rgb(253,213,220)>
+                Currently, we climb together as a group at a local gym called Planet Rock at the following
+                days/times:<br>-Tuesday 7pm-10pm<br>-Thursday 7pm-10pm<br>-Saturday 3pm-6pm<br>We also like to go
+                outdoor climbing whenever we can, so check out the "Memories" page to see where we've been around
+                the country so far!
+            </div>
+            <div class="mt-5 col-12 col-md-6" style=background-color:rgb(212,212,247)>
+                Insert Google Map (later...)
+            </div>
+        </div>
+    </section>
 
-		<p>We also like to go outdoor climbing whenever we can, so check out the “Memories” page to see where we’ve been
-			around the country so far!</p>
 
-		<p>We always love to meet new people so don’t hesitate in contacting us if you’re interested in joining us for
-			climbing. Thanks :) </p>
-
-		<div class="footer">
-			<p>This is the footer <i class="far fa-smile"></i><i class="far fa-smile"></i></p>
-		</div>
+    <footer>
+        &copy; 2018 by Michelle Lee
+    </footer>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>

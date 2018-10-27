@@ -2,29 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Mirocle</title>
+    <title>Mirocle Climbing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=KoHo">
 </head>
 
-<body class="types">
-    <header>
-        <nav>
-            <h1>Michigan Rock Climbing (MIROCLE)</h1>
-            <ul class="nav_container">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="types.html">Types of Climbing</a></li>
-                <li><a href="memories.html">Memories</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
+<body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="index.html">MIROCLE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="types.html">Types of Climbing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="memories.html">Memories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
     <p>There are several types of climbing provided for us at the gym.</p>
-    <h3>Bouldering</h3>
+    <h2>Bouldering</h2>
     <p>This is the simplest form of climbing as it requires no equipment such as a harness or rope.
         <br>The climbing problems are built on walls that go not too far up from the ground, and the “ground” is a
         cushiony mat that protects us in case we fall.
@@ -32,7 +43,7 @@
     <img src="images/image3.jpeg" class="picture" alt="Bouldering Picture 1: Indoors" />
     <img src="images/image4.jpeg" class="picture" alt="Bouldering Picture 2: Moon Board" />
     <img src="images/image8.jpg" class="picture" alt="Boudering Picture 3: Outdoors" />
-    <h3>Top-Rope Climbing</h3>
+    <h2>Top-Rope Climbing</h2>
     <p>Unlike bouldering that one can do on their own, top-rope climbing requires a partner – one person climbs the
         wall, and the other person stays on the ground, who is called a belayer.
         <br>The belayer has extreme responsibilities as it is their job to manage the rope to catch the climber in
@@ -40,15 +51,22 @@
         <br>Top-roping requires harnesses for both people and a rope that’s secured to an overhead anchor.</p>
     <img src="images/image6.JPG" class="picture" alt="Top Roping Picture 1: On The Wall" />
     <img src="images/image5.jpeg" class="picture" alt="Top Roping Picture 2: Belaying" />
-    <h3>Lead Climbing</h3>
+    <h2>Lead Climbing</h2>
     <p>Lead climbing is for people who are skilled top-rope climbers since the climber clips a rope into a series
         of quickdraws that are aligned with the route as they climb up the wall.
         <br>This is also partner-based, and the climber is prone to taking harder falls than when top-roping.</p>
     <img src="images/image14.jpeg" class="picture" alt="Climbing Wall" />
     <img src="images/image7.JPG" class="picture" alt="Belay Partners" />
-    <div class="footer">
-        <p>This is the footer <i class="far fa-smile"></i><i class="far fa-smile"></i></p>
-    </div>
+    <footer>
+        &copy; 2018 by Michelle Lee
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -2,48 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Mirocle</title>
+    <title>Mirocle Memories</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=KoHo">
 </head>
 
-<body class="background">
-    <header>
-        <nav>
-            <h1>Michigan Rock Climbing (MIROCLE)</h1>
-            <ul class="nav_container">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="types.html">Types of Climbing</a></li>
-                <li class="active"><a href="memories.html">Memories</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">MIROCLE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="types.html">Types of Climbing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="memories.html">Memories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <p>Below are some of the locations we went outdoor climbing.</p>
-    <p>-Guanella Pass, Colorado</p>
-    <p>-El Paso, Texas</p>
-    <p>-Chattanooga, Tennessee</p>
-    <p>-Bishop, California</p>
-    <p>-Coopers Rock State Park, West Virginia</p>
-    <p>-Joe’s Valley in Orangeville, Utah</p>
-    <section class="img_container">
-        <img src="images/image1.jpeg" class="picture" alt="Trip" />
-        <img src="images/image1.jpeg" class="picture" alt="Trip" />
-        <img src="images/image2.jpg" class="picture" alt="Trip" />
-        <img src="images/image2.jpg" class="picture" alt="Trip" />
-        <img src="images/image8.jpg" class="picture" alt="Trip" />
-        <img src="images/image14.jpg" class="picture" alt="Trip" />
-        <img src="images/image9.jpg" class="picture" alt="Trip" />
-        <img src="images/image10.jpeg" class="picture" alt="Trip" />
-        <img src="images/image10.jpeg" class="picture" alt="Trip" />
+    <!-- <section class="container">
+        <h2>Trips Gallery</h2>
+        <p>Below are the locations we've gone for outdoor bouldering.</p>
+        <p>Click each one to see more!!</p> -->
+    <!-- <section> -->
+    <section class="topimagecontainer">
+        <img src="images/samplepic.png" class="memoriesmainpic" alt="rockclimbing" />
+        <!-- <div class="bottomleft">TAKE EVERY RISK.<br>DROP EVERY FEAR.</div> -->
     </section>
-    <div class="footer">
-        <p>This is the footer <i class="far fa-smile"></i><i class="far fa-smile"></i></p>
-    </div>
+    <section class="container memoriespage">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image1.jpeg" class="thumb" alt="Trip" />
+                <p>Guanella Pass, Colorado</p>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image1.jpeg" class="thumb" alt="Trip" />
+                <p>El Paso, Texas</p>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image1.jpeg" class="thumb" alt="Trip" />
+                <p>Somewhere</p>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image10.jpeg" class="thumb" alt="Trip" />
+                <p>Guanella Pass, Colorado</p>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image10.jpeg" class="thumb" alt="Trip" />
+                <p>El Paso, Texas</p>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image10.jpeg" class="thumb" alt="Trip" />
+                <p>Somewhere</p>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image1.jpeg" class="thumb" alt="Trip" />
+                <p>Guanella Pass, Colorado</p>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <img src="images/image1.jpeg" class="thumb" alt="Trip" />
+                <p>El Paso, Texas</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="images/image1.jpeg" class="thumb" alt="Trip" />
+                <p>Somewhere</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        &copy; 2018 by Michelle Lee
+    </footer>
+
 </body>
 
 </html>
