@@ -15,8 +15,13 @@
 .homepic {
     width: 100vw;
 }
-.box1 {
-    font-size: 2em;
+.box {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2.5;
+}
+.one {
+    font-size: 1.5em;
 }
 
 
