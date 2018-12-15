@@ -1,3 +1,4 @@
+/* --------------Global-------------- */
 * {
     margin: 0;
     padding: 0;
@@ -10,51 +11,203 @@
 .navbar-brand {
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 26px;
+    font-size: 30px;
 }
+.nav-item {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding-right: 16px;
+}
+#myBtn {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px black;
+}
+#myBtn:hover {
+    background-color: #5d4954;
+    color: white;
+    border: solid 1px black;
+}
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+    font-family: 'Roboto', sans-serif;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #5d4954;
+    color: rgb(226,226,226);
+    padding: 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* --------------Home Page-------------- */
 .homepic {
     width: 100vw;
 }
 .box {
     padding-left: 5%;
     padding-right: 5%;
-    line-height: 2.5;
+    line-height: 2;
 }
-.one {
-    font-size: 1.5em;
-}
-
-
-
-
 .mt-5 {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: justify;
 }
-
-
-
-
-
-
-.thumb {
-    width: 100%;
-
-} 
-.picture {
-    width: 370px;
-    height: 250px;
+.one {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+}
+/* Text sliding up */
+.w3-container {
+    animation-duration: 4s;
 }
 
+/* --------------Types Page-------------- */
+/* Accordion */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2em;
+    transition: 0.9s;
+    text-align: center;
+}
+.accordion:hover {
+    background-color: #ccc;
+}
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+} 
+.accordion.active:after {
+    content: "\2212";
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.panel h2 {
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(136, 49, 49);
+    text-align: center;
+    font-weight: bold;
+}
+.panel h3 {
+    font-size: 1.1em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(136, 49, 49);
+    text-align: center;
+    font-weight: bold;
+}
+.panel p {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cite {
+    font-size: 10px;
+}
+.typesmainpic {
+    width: 100vw;
+    /* opacity: 0.6; */
+}
+.typespagecontainer {
+    position: relative;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container > img {
+    margin: 7px;
+}
+.typesheader h1 {
+    text-align: center;
+    padding: 70px;
+    font-size: 25px;
+}
+.picture {
+    width: 380px;
+    height: 260px;
+}
+
+/* --------------Memories Page-------------- */
 .memoriespage {
     margin-top: 4em;
 }
-
 .memoriesmainpic {
     width: 100vw;
     opacity: 0.7;
 }
+.thumb {
+    width: 100%;
+    height: 250px;
+} 
+.gallery {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery img {
+    width: 100%;
+    padding: 3px;
+}
+/* --------------Memories Page-------------- */
+
 .topimagecontainer {
     position: relative;
 }
@@ -66,33 +219,6 @@
     font-weight: 700;
     line-height: 50px;
 }
-
-
-
-
-
-
-
-
-
-footer {
- 
-    background-color: #5d4954;
-    color: rgb(226,226,226);
-    padding: 80px;
-    text-align: center;
-    margin-top: 50px;
-
-}
-
-
-
-
-
-
-
-
-
 .contactpage {
     background-color: #fdecf5;
 }
@@ -102,3 +228,6 @@ footer {
     }
 }
 
+
+
+    
