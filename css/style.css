@@ -18,6 +18,13 @@
     letter-spacing: 0.5px;
     padding-right: 16px;
 }
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
+    text-transform: uppercase;
+    color: white;
+}
 #myBtn {
     font-family: 'Roboto', sans-serif;
     display: none;
@@ -280,6 +287,9 @@ footer {
 }
 .container {
     width: 80%;
+}
+.btn {
+    background-color: black;
 }
 @media only screen and (min-width: 768px) {
     .contactpage h1 {
