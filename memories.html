@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
+<header>
     <a class="skip-main" href="#main">Skip to main content</a>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -38,81 +38,102 @@
             </ul>
         </div>
     </nav>
+</header>
 
-    <!-- <section class="container">
-        <h2>Trips Gallery</h2>
-        <p>Below are the locations we've gone for outdoor bouldering.</p>
-        <p>Click each one to see more!!</p> -->
-    <!-- <section> -->
+<body>
     <section class="topimagecontainer">
         <img src="images/samplepic.png" class="memoriesmainpic" alt="rockclimbing" />
         <!-- <div class="bottomleft">TAKE EVERY RISK.<br>DROP EVERY FEAR.</div> -->
     </section>
+
     <main>
         <p id="main" tabindex="-1"></p>
 
-        <div class="gallery">
-            <a href="images/image1.jpeg" data-lightbox="Trips" data-title="Planet Rock, Ann Arbor"><img src="images/image1.jpeg" class="thumb" alt="Group Picture in Planet Rock"></a>
-
-            <a href="images/image10.jpeg" data-lightbox="Trips" data-title="Guanella Pass, Colorado"><img src="images/image10.jpeg" class="thumb" alt="Group Picture in Guanella Pass, Colorado"></a>
-
-            <a href="images/image9.jpg" data-lightbox="Trips" data-title="Cooper's Rock, West Virginia"><img src="images/image9.jpg" class="thumb" alt="Group Picture in Cooper's Rock, West Virginia"></a>
-
-            <a href="images/image17.JPG" data-lightbox="Trips" data-title="Hueco Tanks, Texas"><img src="images/image17.JPG" class="thumb" alt="Group Picture in Hueco Tanks, Texas"></a>
-
-            <a href="images/image8.jpg" data-lightbox="Trips" data-title="Cooper's Rock, West Virginia"><img src="images/image8.jpg" class="thumb" alt="Michelle's First Time Bouldering Outside"></a>
-
-            <a href="images/image11.JPG" data-lightbox="Trips" data-title="Guanella Pass, Colorado"><img src="images/image11.JPG" class="thumb" alt="Jae on top of a boulder"></a>
-
-            <a href="images/image12.JPG" data-lightbox="Trips" data-title="Joe's Valley, Utah"><img src="images/image12.JPG" class="thumb" alt="Boys in Joe's Valley, Utah"></a>
-
-            <a href="images/image13.JPG" data-lightbox="Trips" data-title="Chattanooga, Tennessee"><img src="images/image13.JPG" class="thumb" alt="Guys Group Picture in Chattanooga, Tennessee"></a>
-
-            <a href="images/image18.JPG" data-lightbox="Trips" data-title="Guanella Pass, Colorado" src="images/image1"><img src="images/image18.JPG" class="thumb" alt="Group Picture in Guanella Pass, Colorado"></a>
+        <div class="mempage">
+            <h1>Below are some pictures from our outdoor bouldering trips.</h1>
+            <p>(Click on each photo to enlarge and navigate by clicking the left or right half of the photo, or with
+                your keyboard arrows)</p>
         </div>
 
-
-        <!-- <section class="container memoriespage">
-            <div class="row">
-                <div class="col-12 col-md-6 col-xl-4">
-                        <a href="images/image1.jpeg" data-lightbox="Trips" data-title="Planet Rock"><img src="images/image1.jpeg" class="thumb" alt="Group Picture in Planet Rock"></a>
-
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                        <a href="images/image19.JPG" data-lightbox="Trips" data-title="Chattanooga, Tennessee"><img src="images/image19.JPG" class="thumb" alt="Group Picture in Chattanooga"></a>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                        <a href="images/image18.JPG" data-lightbox="Trips" data-title="Guanella Pass, Colorado"><img src="images/image18.JPG" class="thumb" alt="Group Picture in Guanella Pass, Colorado"></a>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                        <a href="images/image17.JPG" data-lightbox="Trips" data-title="Hueco Tanks, Texas"><img src="images/image17.JPG" class="thumb" alt="Group Picture in Hueco Tanks, Texas"></a>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                    <img src="images/image10.jpeg" class="thumb" alt="Trip" />
-                    <p>El Paso, Texas</p>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                    <img src="images/image10.jpeg" class="thumb" alt="Trip" />
-                    <p>Somewhere</p>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                    <img src="images/image1.jpeg" class="thumb" alt="Trip" />
-                    <p>Guanella Pass, Colorado</p>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                    <img src="images/image1.jpeg" class="thumb" alt="Trip" />
-                    <p>El Paso, Texas</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img src="images/image1.jpeg" class="thumb" alt="Trip" />
-                    <p>Somewhere</p>
-                </div>
+        <div class="gallery">
+            <div class="cont">
+                <a href="images/image1.jpeg" data-lightbox="Trips" data-title="Group Picture: Planet Rock, Ann Arbor"><img
+                        src="images/image1.jpeg" class="thumb" alt="Group Picture in Planet Rock"></a>
+                <div class="overlay">Planet Rock</div>
             </div>
-        </section> -->
+
+            <div class="cont">
+                <a href="images/image10.jpeg" data-lightbox="Trips" data-title="Group Picture: Guanella Pass, Colorado"><img
+                        src="images/image10.jpeg" class="thumb" alt="Group Picture in Guanella Pass, Colorado"></a>
+                <div class="overlay">Guanella Pass</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image17.JPG" data-lightbox="Trips" data-title="Group Picture: Hueco Tanks, Texas"><img
+                        src="images/image17.JPG" class="thumb" alt="Group Picture in Hueco Tanks, Texas"></a>
+                <div class="overlay">Hueco Tanks</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image22.JPG" data-lightbox="Trips" data-title="Michelle in Guanella Pass, Colorado"><img
+                        src="images/image22.JPG" class="thumb" alt="Michelle in Guanella Pass, Colorado"></a>
+                <div class="overlay">Guanella Pass</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image21.jpg" data-lightbox="Trips" data-title="Girls' Picture in Cooper's Rock, West Virginia"><img
+                        src="images/image21.jpg" class="thumb" alt="Girls' Picture in Cooper's Rock, West Virginia"></a>
+                <div class="overlay">Cooper's Rock</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image9.jpg" data-lightbox="Trips" data-title="Cooper's Rock, West Virginia"><img src="images/image9.jpg"
+                        class="thumb" alt="Group Picture in West Virginia"></a>
+                <div class="overlay">Cooper's Rock</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image23.JPG" data-lightbox="Trips" data-title="Chattanooga, Tennessee"><img src="images/image23.JPG"
+                        class="thumb" alt="Chattanooga, Tennessee"></a>
+                <div class="overlay">Chattanooga</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image8.jpg" data-lightbox="Trips" data-title="Michelle: Cooper's Rock, West Virginia"><img
+                        src="images/image8.jpg" class="thumb" alt="Michelle's First Time Bouldering Outside"></a>
+                <div class="overlay">West Virginia</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image11.JPG" data-lightbox="Trips" data-title="Jae in Guanella Pass, Colorado"><img src="images/image11.JPG"
+                        class="thumb" alt="Jae on top of a boulder"></a>
+                <div class="overlay">Guanella Pass</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image12.JPG" data-lightbox="Trips" data-title="Joe's Valley, Utah"><img src="images/image12.JPG"
+                        class="thumb" alt="Boys in Joe's Valley, Utah"></a>
+                <div class="overlay">Joe's Valley</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image20.jpeg" data-lightbox="Trips" data-title="Soobin in Chattanooga, Tennessee"><img
+                        src="images/image20.jpeg" class="thumb" alt="Soobin in Chattanooga, Tennessee"></a>
+                <div class="overlay">Chattanooga</div>
+            </div>
+
+            <div class="cont">
+                <a href="images/image19.JPG" data-lightbox="Trips" data-title="Group Picture in Chattanooga, Tenneessee"><img
+                        src="images/image19.JPG" class="thumb" alt="Group Picture in Chattanooga, Tenneessee"></a>
+                <div class="overlay">Chattanooga</div>
+            </div>
+
+        </div>
     </main>
+
+    <!-- Jump to Top  -->
     <script>
         window.onscroll = function () { scrollFunction() };
-
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 document.getElementById("myBtn").style.display = "block";
@@ -120,12 +141,10 @@
                 document.getElementById("myBtn").style.display = "none";
             }
         }
-
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-
     </script>
 
     <footer>

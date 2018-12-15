@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
+<header>
     <a class="skip-main" href="#main">Skip to main content</a>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -37,14 +37,18 @@
             </ul>
         </div>
     </nav>
-    <!-- <div class="typespagecontainer">
+</header>
+
+<body>
+    <div class="typespagecontainer">
         <img src="images/typesmain.png" class="typesmainpic" alt="rockclimbing" />
-    </div> -->
+    </div>
+
     <main>
         <p id="main" tabindex="-1"></p>
         <div class="typesheader">
-        <h1>Click below to read more about each type of climbing</h1>
-    </div>
+            <h1>Read more about each type of climbing below!</h1>
+        </div>
         <button class="accordion">Bouldering</button>
 
         <div class="panel">
@@ -95,7 +99,6 @@
                 longer, but by that stage you'll be hooked!</p>
             <div class="flex-container">
                 <img src="images/image3.jpeg" class="picture" alt="Bouldering Indoors" />
-                <img src="images/image8.jpg" class="picture" alt="Boudering Outdoors" />
                 <img src="images/image4.jpeg" class="picture" alt="Bouldering on Moon Board">
             </div>
             <br>
@@ -224,6 +227,7 @@
             <br>
         </div>
     </main>
+
     <!-- Jump to Top  -->
     <script>
         window.onscroll = function () { scrollFunction() };
